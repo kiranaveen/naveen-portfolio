@@ -1,5 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { Tooltip as ReactTooltip } from 'react-tooltip'
+
+
 import {
   SiVisualstudiocode,
   SiPostman,
@@ -11,26 +14,27 @@ import {
   // SiMetasploit ,
 } from "react-icons/si";
 
+
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
            <Col xs={4} md={2} className="tech-icons">
-        <SiIntellijidea  />
+        <SiIntellijidea title= "Intellij Idea Ultimate" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiKalilinux/>
+        <SiKalilinux title = "Kali Linux"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiWindows/>
+        <SiWindows title="Windows"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiVisualstudiocode title = "Visual Studio Code"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiPostman title = "Post Man"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiDatagrip />
+        <SiDatagrip title= "DataGrip"/>
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiMetasploit />

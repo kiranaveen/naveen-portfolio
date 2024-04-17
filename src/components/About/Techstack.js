@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row ,Tooltip} from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 // import { FaCodeCommit } from "react-icons/fa6";
 
@@ -34,25 +34,26 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
        <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <DiJava title="Java" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSpringboot />
+        
+        <SiSpringboot title="Spring Boot"  />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHibernate />
+        <SiHibernate title = "Hibernate" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiJavascript1 title="JavaScript"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiDocker  />
+        <DiDocker title ="Docker" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAmazonaws />
+        <SiAmazonaws title = "AWS"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMysql />
+        <SiMysql title = "MySql"/>
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <DiPostgresql />
@@ -64,28 +65,28 @@ function Techstack() {
       <FaCodeCommit />
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiGit title="Git"/>
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <SiRedis title = "Redis"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <SiPostgresql title = "PostgreSql" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiPython title="Python"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFlask />
+        <SiFlask title = "Flask"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiDialogflow />
+        <SiDialogflow title = "Google Dialogflow"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiLaravel />
+        <DiLaravel title = "Laravel" />
       </Col>
      
     </Row>
