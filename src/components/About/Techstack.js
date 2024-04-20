@@ -72,6 +72,8 @@ function Techstack() {
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiRedis title = "Redis"/>
+        <span>Redis</span>
+
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql title = "PostgreSql" />
