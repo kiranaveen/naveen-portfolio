@@ -26,7 +26,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Redis Spring Boot"
-              description="It is an Simple Redis Cache Implementationg Using Spring Boot"
+              description="It is an Simple Redis Cache Implementation Using Spring Boot"
               ghLink="https://github.com/kiranaveen/Redis-Spring-Boot-Implementation"
               // demoLink="https://chatify-49.web.app/"
             />

@@ -55,25 +55,12 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql title = "MySql"/>
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <DiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMysql />
-      </Col> */}
-      {/* <Col xs={4} md={2} className="tech-icons">
-      <FaCodeCommit />
-      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiGit title="Git"/>
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col> */}
+
       <Col xs={4} md={2} className="tech-icons">
         <SiRedis title = "Redis"/>
-        <span>Redis</span>
-
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql title = "PostgreSql" />

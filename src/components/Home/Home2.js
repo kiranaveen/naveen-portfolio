@@ -32,7 +32,7 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">Web Technologies </b> and
                 also in areas related to{" "}
                 <b className="purple">
                   Cyber-Security.
@@ -45,10 +45,10 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Exploring new Technologies and Cyber-security vulnerabilitys
+                  Exploring new Technologies and Find Cyber-security vulnerabilitys
                 </b>
               </i>
-              &nbsp; with
+              &nbsp; with Linux Tools Like
               <i>
                 <b className="purple"> Metasploit Framework</b>
               </i>
