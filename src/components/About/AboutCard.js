@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             I am currently employed as a software developer at Impiger Technologies.
             <br />
-            I have completed BCA in Computer Applications and Current pursing My Master in Computer Application(MCA).
+            I have completed My BCA Degress in Computer Applications in 2022 and Completed My Master Of Computer Applications(MCA) in 2024.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -23,7 +23,7 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Learning Techs
+              <ImPointRight /> Exploring New Technologies In The Internet
             </li>
             {/* <li className="about-activity">
               <ImPointRight /> Travelling

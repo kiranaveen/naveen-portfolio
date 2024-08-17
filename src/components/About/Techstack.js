@@ -47,13 +47,19 @@ function Techstack() {
         <DiJavascript1 title="JavaScript"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiLaravel title = "Laravel" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql title = "PostgreSql" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql title = "MySql"/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiDocker title ="Docker" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAmazonaws title = "AWS"/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMysql title = "MySql"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit title="Git"/>
@@ -62,21 +68,16 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiRedis title = "Redis"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql title = "PostgreSql" />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+
+      {/* <Col xs={4} md={2} className="tech-icons">
         <DiPython title="Python"/>
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiFlask title = "Flask"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiDialogflow title = "Google Dialogflow"/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiLaravel title = "Laravel" />
-      </Col>
+      </Col> */}
      
     </Row>
   );

@@ -45,7 +45,7 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Exploring new Technologies and Find Cyber-security vulnerabilitys
+                  Exploring new Technologies and Learn About New Cyber-security vulnerabilitys
                 </b>
               </i>
               &nbsp; with Linux Tools Like
